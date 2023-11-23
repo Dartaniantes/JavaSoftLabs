@@ -1,4 +1,4 @@
-public class Matrix {
+public class MatrixLab2 {
 
     public static void XorAverages(){
         byte[][] m1 = {{3,2,6}, {9,5,4}, {1,8,3}};

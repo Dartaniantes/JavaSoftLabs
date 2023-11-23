@@ -1,4 +1,4 @@
-public class Counter {
+public class CounterLab1 {
     public static void count(){
         short a = 0;
         short b = 1;

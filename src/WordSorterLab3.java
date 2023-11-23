@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class WordSorter {
+public class WordSorterLab3 {
     public static void  sort(){
         String text = "aaaffa avfa fffbbbbssds";
         char ch = 'f';

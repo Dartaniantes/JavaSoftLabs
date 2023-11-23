@@ -4,7 +4,7 @@ public class Main {
         //Counter.count();
 
         // Lab 2
-        Matrix.XorAverages();
+        MatrixLab2.XorAverages();
 
         // Lab 3
         //WordSorter.sort();
