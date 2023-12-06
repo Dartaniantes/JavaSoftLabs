@@ -1,5 +1,3 @@
-import Lab4_Furniture.FurnitureL4;
-
 public class Main {
     public static void main(String[] args) {
         // Lab 1

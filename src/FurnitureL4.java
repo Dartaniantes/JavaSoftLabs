@@ -1,5 +1,3 @@
-package Lab4_Furniture;
-
 import java.util.Arrays;
 
 public class FurnitureL4 {
