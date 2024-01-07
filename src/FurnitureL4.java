@@ -1,11 +1,11 @@
 import java.util.Arrays;
 
 public class FurnitureL4 {
-    double width;
-    double height;
-    double length;
-    String name;
-    String color;
+    private double width;
+    private double height;
+    private double length;
+    private String name;
+    private String color;
 
     public FurnitureL4(double width, double height, double length, String name, String color) {
         this.width = width;
@@ -40,5 +40,25 @@ public class FurnitureL4 {
         for (FurnitureL4 f: furniture)
             System.out.println(f);
         System.out.println();
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getColor() {
+        return color;
     }
 }

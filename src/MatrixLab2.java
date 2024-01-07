@@ -15,11 +15,15 @@ public class MatrixLab2 {
         show(res);
         System.out.println("XOR result matrix averages by rows:");
         show(getRowsAverages(res));
+
     }
 
     public static byte[][] xor(byte[][] m1, byte[][] m2){
         try{
-        byte[][] res = new byte[m1.length][m1[0].length];
+
+            if(m1.length != m2.length || m1[0].length != m2[0].length)
+                throw new RuntimeException("Matrices are not equal. Change their dimention sizes to equal");
+            byte[][] res = new byte[m1.length][m1[0].length];
 
             for (int i = 0; i < m1.length; i++)
                 for (int j = 0; j < m1[0].length; j++)
