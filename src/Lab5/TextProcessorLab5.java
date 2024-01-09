@@ -3,7 +3,7 @@ package Lab5;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class TextProcessor {
+public class TextProcessorLab5 {
     public static void process(){
         Text text = new Text("Good evening, friends. Here is our topic for today: history of Ukraine!");
         System.out.println("Input text:\n" + text);

@@ -1,6 +1,8 @@
 import Lab5.*;
+import Lab6.Aircraft;
+import Lab6.AirlineProcessorLab6;
+import Lab6.Boeing;
 
-import javax.sound.midi.Soundbank;
 import java.util.Arrays;
 
 
@@ -19,8 +21,10 @@ public class Main {
         //FurnitureL4.sortArrs();
 
         //Lab 5
-        TextProcessor.process();
+        //TextProcessorLab5.process();
 
+        //Lab 6
+        AirlineProcessorLab6.process();
     }
 
     public static void match(String[] arr, String regex){
@@ -30,9 +34,9 @@ public class Main {
         }
     }
 
-    public static void show(char[] ch){
-        for (int i = 0; i < ch.length; i++) {
-            System.out.print(ch[i] + " ");
+    public static void show(Aircraft[] planes){
+        for (int i = 0; i < planes.length; i++) {
+            System.out.println(planes[i]);
         }
     }
 
